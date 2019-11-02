@@ -8,7 +8,7 @@ class Landing extends React.Component {
         <div className='digits-background'>
           <Grid container centered stackable columns={3}>
             <Grid.Column textAlign='center'>
-              <Icon inverted size='huge'name='users'/>
+              <Icon inverted size='huge' name='users'/>
               <Header inverted as='h1'>Multiple Users</Header>
               <Header inverted as='h3'>This address book enables any
               number of users to register and save
@@ -17,14 +17,14 @@ class Landing extends React.Component {
             </Grid.Column>
 
             <Grid.Column textAlign='center'>
-              <Icon inverted size='huge'name='file alternate'/>
+              <Icon inverted size='huge' name='file alternate'/>
               <Header inverted as='h1'>Contact Details</Header>
               <Header inverted as='h3'>For each contact, you can save their
                 name, address, and phone number.</Header>
             </Grid.Column>
 
             <Grid.Column textAlign='center'>
-              <Icon inverted size='huge'name='calendar check outline'/>
+              <Icon inverted size='huge' name='calendar check outline'/>
               <Header inverted as='h1'>Timestamped Notes</Header>
               <Header inverted as='h3'>Each time you make contact with a
                 contact, you can write a note that
