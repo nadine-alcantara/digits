@@ -33,8 +33,8 @@ class ListContacts extends React.Component {
 
 /** Require an array of Stuff documents in the props. */
 ListContacts.propTypes = {
-  contacts: PropTypes.object.isRequired,
-  notes: PropTypes.object.isRequired,
+  contacts: PropTypes.array.isRequired,
+  notes: PropTypes.array.isRequired,
   ready: PropTypes.bool.isRequired,
 };
 
