@@ -34,7 +34,7 @@ class EditContact extends React.Component {
     return (
         <Grid container centered>
           <Grid.Column>
-            <Header as="h2" textAlign="center" inverted>Edit Stuff</Header>
+            <Header as="h2" textAlign="center" inverted>Edit Contact</Header>
             <AutoForm schema={ContactSchema} onSubmit={data => this.submit(data)} model={this.props.doc}>
               <Segment>
                 <TextField name='firstName'/>
